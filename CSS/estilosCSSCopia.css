@@ -1,0 +1,81 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    width:100%;
+    height: 100%;
+    margin:0 auto;
+}
+h1, h2, h3 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+header {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    color:#eeeeee;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height:10%;
+    width:100%;
+    padding: 1%;
+}
+nav {
+    flex-basis: 90%;/*No lo he conseguido de otra manera*/
+    float: right;
+}
+
+nav ul{
+    display:flex;
+    gap: 15px;
+    float: right;
+    list-style: none; 
+}
+
+aside {
+    line-height:30px;
+    background-color:#eeeeee;
+    float:right;
+    height: 70%;
+    width: 20%;
+    padding-bottom: 56%;
+}
+
+aside div img{
+    height: 3%;
+    width: 4%;
+   
+}
+main {
+    background-color:#dbd9d9;
+    height: 10%;
+    width:100%;
+}
+section {
+    background-color:#aaaaaa;
+    float:left;
+    padding: 1%;
+    height:1%;
+    width:81%;
+
+}
+article {
+    background-color:#ffffff;
+    height:1%;
+    width:100%;
+    
+}
+
+footer {
+    background-color:#00A1C0;
+    color:white;
+    clear: both;
+    text-align:center;
+    height:30%;
+    width:100%;
+}
+
+

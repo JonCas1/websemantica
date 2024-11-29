@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <!--título de la página.-->
+    <title>Contacto | Web tatuaje y arte</title>
+    <!--fuente que utilizaremos será de google.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&family=Pacifico&family=Poppins:ital,wght@0,400;1,300&display=swap"
+        rel="stylesheet">
+
+    <!--fichero de estilos que utilizaremos en la página.-->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header id="headerAlt">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo-web.png"></a>
+        </div>
+        <nav id="navegacion">
+            <ul>
+                <li><a href="index.html"><img src="img/home.png"></a></li>
+                <li><a href="noticias.html">NOTICIAS</a></li>
+                <li><a href="categorias.html">CATEGORIAS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="formulario">
+            <article>
+                <form action="index.html" method ="get">
+
+                    <legend>
+                        <h2 id="tituloFormulario">Formulario de contacto</h2>
+                    </legend>
+                    <label>Nombre:</label><br>
+                    <input type="text" class="placeholder" name="nombre1" value="¿Cómo te llamas?"><br>
+                    <label for="email">Correo electrónico</label><br>
+                    <input type="email" class="placeholder" name="email" value="¿Cuál es tu correo electrónico?"><br>
+                    <label for="prior" >Marca el nivel de urgencia</label><br>
+                    <select id="prior" class="placeholder" name="urgencia">
+                        <option value="L" class="placeholder">Baja</option>
+                        <option value="M" class="placeholder">Media</option>
+                        <option value="H" class="placeholder">Alta</option>
+                    </select><br>
+                    <label for="mensaje">Mensaje</label><br>
+                    <textarea class="placeholder" name="mensaje"
+                        value="Cuéntanos en qué podemos ayudarte!"></textarea><br>
+
+                    <input class="boton" type="submit" value="Enviar">
+
+                </form>
+            </article>
+            <article id="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2925.435557710091!2d-2.6729725252212106!3d42.84253550448592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4fc26fdc8e5dff%3A0x306133e8d082b502!2sEstudio%20de%20Tatuajes%20%22No%20Limits%22!5e0!3m2!1ses!2ses!4v1732876852316!5m2!1ses!2ses"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+
+    </main>
+
+    <aside>
+        <h2>CATEGORÍAS</h2>
+        <ul>
+            <h3> <a href="https://www.instagram.com/kasti.tattoo/?hl=es" target="blank"> TATUAJES </a></h3>
+            <h3> <a href="https://kastitattoo.com/?product=laminas-personalizadas-historias-en-papel" target="blank"> LÁMINAS ORIGINALES </a></h3>
+            <h3> <a href="https://kastitattoo.com/?product=lamina-vivir-para-vivir" target="blank"> PRINTS </a></h3>
+        </ul>
+
+
+    </aside>
+
+
+    <footer>
+        <!--Pie de página.-->
+        <p>© JC | 2024 | Gasteiz | Dudas y consultas: <a href="mailto:joncastillo1@birt.eus?subject=web">escríbeme</a></p>
+    </footer>
+
+
+</body>
+
+</html>

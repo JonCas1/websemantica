@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- ############  Vídeo con la reflexión y explicación de la tarea subido a Youtube con la URL:  https://youtu.be/JJL9GXKgPpo ############-->
+
+    <meta charset="utf-8">
+    <!--título de la página.-->
+    <title>Web tatuaje y arte</title>
+    <!--fuente que utilizaremos será de google.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&family=Pacifico&family=Poppins:ital,wght@0,400;1,300&display=swap"
+        rel="stylesheet">
+
+    <!--fichero de estilos que utilizaremos en la página.-->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!--La cabecera de la página index es diferente, por eso se llama al id "transparente". Conseguimos que laimagen del main se vea por debajo de la cabecera de navegación.-->
+    <header id="transparente">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo-web.png"></a>
+        </div>
+        <nav id="navegacion">
+            <!--He incluido un link con una imagen-->
+            <ul>
+                <li><a href="index.html"><img src="img/home.png"></a></li>
+                <li><a href="noticias.html">NOTICIAS</a></li>
+                <li><a href="categorias.html">CATEGORIAS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <img id="subirImagen" src="img/NLT.webp">
+        <div class="bienvenida">
+            <h2>BIENVENIDXS A MI PÁGINA WEB</h2>
+
+            <p>¡Bienvenid@ al espacio donde el arte se une a las historias personales! Aquí encontrarás diseños únicos,
+                tatuajes llenos de significado y láminas exclusivas. Cada trazo cuenta algo especial: tu historia.
+                Explora, inspírate y deja que el arte hable por ti. ¡Gracias por confiar en nuestra creatividad para
+                transformar!</p>
+        </div>
+    </main>
+
+    <aside>
+        <h2>CATEGORÍAS</h2>
+        <ul>
+            <h3> <a href="https://www.instagram.com/kasti.tattoo/?hl=es" target="blank"> TATUAJES </a></h3>
+            <h3> <a href="https://kastitattoo.com/?product=laminas-personalizadas-historias-en-papel" target="blank">
+                    LÁMINAS ORIGINALES </a></h3>
+            <h3> <a href="https://kastitattoo.com/?product=lamina-vivir-para-vivir" target="blank"> PRINTS </a></h3>
+        </ul>
+    </aside>
+
+    <section>
+        <h2>NOTICIAS</h2>
+        <article class="noticias">
+            <img src="img/tattoo-txiki.webp" alt="Tatuajes pequeños">
+            <div class="content">
+                <h3>Más tatuajes, más pequeños y menos ‘artísticos’: por qué la última guerra generacional se libra en
+                    la piel</h3>
+                <p> La popularización de los tatuajes monocromáticos y de pequeño tamaño, que ya se hacen hasta en
+                    hamburgueserías y bodas, abre la puerta a escépticos de los dibujos en la piel pero, para los
+                    clásicos, abarata un arte milenario </p>
+            </div>
+        </article>
+
+        <article class="noticias">
+            <img src="img/cocinero.avif" alt="Tatuajes cocinero">
+            <div class="content">
+                <h3>Por qué los cocineros y los camareros llevan tantos tatuajes</h3>
+                <p> Chefs, baristas, sumilleres y ‘bartenders’ hablan de sus dibujos grabados en la piel más
+                    gastronómicos y cómo pasó de algo mal visto a una seña de identidad en el oficio </p>
+            </div>
+        </article>
+
+
+    </section>
+
+    <!--Sección de productos, con articulos en columnas, que al hacerse la página más estrecha, los elementos se apilan-->
+    <section id="disponibles">
+        <h2 id="tituloDisponibles">DISEÑOS DISPONIBLES</h2>
+        <article class="artDisponibles">
+            <img src="img/tattoo-txiki.webp" alt="Engrenagens">
+            <div>
+                <h3>Mariposas</h3>
+                <p>Tatuaje disponible de mariposas pequeñas. Línea fina y solo en tinta negra.</p>
+                <p><a href="detalle.html" class="boton">LINK</a></p>
+        </article>
+
+        <article class="artDisponibles">
+            <img src="img/tattoo2.webp" alt="Engrenagens">
+            <div>
+                <h3>Floral</h3>
+                <p> Tatuaje con motivos florales. Línea fina y disponibilidad de hacer en color. </p>
+                <p><a href="detalle.html" class="boton">LINK</a></p>
+        </article>
+        <article class="artDisponibles">
+            <img src="img/tattoo3.webp" alt="Engrenagens">
+            <div>
+                <h3>Flor de loto</h3>
+                <p> Tatuaje de flor de loto. Línea fina y opciones de añadir otros elementos. </p>
+                <p><a href="detalle.html" class="boton">LINK</a></p>
+
+
+        </article>
+
+    </section>
+
+
+    <footer>
+        <!--permite insertar una zona de visualización para los pies de página.-->
+        <p>© JC | 2024 | Gasteiz | Dudas y consultas: <a href="mailto:joncastillo1@birt.eus?subject=web">escríbeme</a></p>
+    </footer>
+
+
+
+</body>
+
+</html>

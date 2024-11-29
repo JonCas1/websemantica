@@ -1,0 +1,267 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+h1,
+h2 {
+    border-bottom: 1px solid #000;
+    border-left: solid #000 5px;
+    padding-left: 5px;
+}
+
+h3 {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: #fdd082;
+    transition: color 0.3s ease;
+
+}
+
+a:hover {
+    color: #c000b0
+}
+
+header {
+    background-color: #00000095;
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    padding: 1%;
+    position: relative;
+    z-index: 3;
+}
+#headerAlt{
+    background-color: #000000;
+
+}
+
+nav {
+    flex-basis: 80%;
+    /*No lo he conseguido de otra manera*/
+    float: right;
+}
+
+.boton {
+    background-color: #fdd082;
+    color: #000;
+    padding: 5px 35px 5px 35px;
+    max-width: 100%;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+}
+
+.boton:hover{
+    background-color:#c000b0;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    float: right;
+    list-style: none;
+}
+
+aside {
+    background-color: #ffffff;
+    float: right;
+    height: 30%;
+    width: 20%;
+    padding: 20px;
+    margin-right: 4%;
+}
+
+main {
+    background-color: #f5f5f5;
+}
+
+main img {
+    width: 100%;
+
+}
+#subirImagen{
+    margin-top: -85px;
+}
+
+.bienvenida {
+    width: 80%;
+    padding: 4%;
+}
+
+section {
+    float: left;
+    margin-left: 4%;
+    width: 65%;
+    padding-top: 20px;
+
+}
+
+
+.noticias {
+    display: flex;
+    flex-direction: row;
+    /* Imagen y texto en fila */
+    padding: 20px;
+    margin: 15px 0px 15px 0px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 100%;
+
+
+}
+
+.noticias img {
+    width: 15%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.content {
+    padding-left: 20px;
+}
+
+.content a {
+    color: #000;
+}
+
+.content a:hover {
+    color: #c000b0;
+}
+
+
+#disponibles {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    /* Imagen y texto en fila */
+    width: 90%;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin-top: 30px
+}
+
+.artDisponibles {
+    max-width: 23%;
+    margin: 1%;
+    padding: 1%;
+    flex-wrap: wrap;
+    min-width: 250px;
+}
+
+
+#tituloDisponibles {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#contacto {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tituloFormulario {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+#formulario {
+    display: flex;
+    width: 65%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#mapa {
+    margin-top: 50px;
+}
+
+
+article {
+    align-items: center;
+    /* Al añadir esta etiqueta, las imágenes mantienen la relacionde aspecto original*/
+}
+
+
+article img {
+    width: 200px;
+
+}
+
+.logo img {
+    width: auto;
+    height: 50px;
+    padding-left: 48px;
+}
+
+.placeholder {
+    color: rgb(126, 126, 126);
+    width: 200px;
+    font-family: 'Poppins';
+}
+
+#seccionDetalle {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0px 0px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#articuloDetalle {
+    width: 70%;
+    padding: 50px;
+    flex-wrap: wrap;
+    min-width: 300px;
+}
+
+.razones {
+    display: flex;
+    flex-direction: row;
+}
+
+#numeracion {
+    font-family: 'Oswald';
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 12px;
+    padding: 11px;
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 5%;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    clear: both;
+    text-align: center;
+    height: 30%;
+    width: 100%;
+    padding: 24px;
+}
